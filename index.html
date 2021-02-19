@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+    <ul class="navbar" id="dropdown">
+    <li><a href="#home">Home</a></li>
+    <li><a href="info.html">About</a></li>
+    <li><a href="info.html">News</a></li>
+    <li><a href="info.html">contact</a></li>
+    <li class="float-right"><a href="info.html">Sign Up</a></li>
+    <li class="float-right"><a href="info.html">Sign In</a></li>
+    <li class="hamburger"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+    </ul>
+    </nav>
+
+
+    <div class="container" id="section-1">
+      <div class="row">
+        <div class="col-6">
+          <div class="credentials">
+          <h1 class="input">iIMPACT</h1>
+          <h1 class="input bottom-margin"> sports nutrition</h1>
+
+          <form >
+            <h2>Username<h2>
+              <input type="text" placeholder="Username">
+              <h2>Password</h2>
+              <input type="password" placeholder="Password">
+          </form>
+        </div>
+        <div class="login">
+          <button onclick="window.location.href = 'index.html';">Login</button>
+        </div>
+
+        </div>
+        <div class="video">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-jFk6lUZ6Fg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+
+    <header>
+      <h1 class="section-2">STRONGER THAN YOU THINK</h1>
+    </header>
+      <div class="row">
+        <div class="col-4">
+          <div class="box">
+            <div class="icon">
+              <img src="image/leading.png" alt="">
+            </div>
+            <label>Leading The Path</lable>
+              <p>
+                  Always the first innovators to provide the best of
+                  bodybuilding world to its customers</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <div class="icon">
+              <img src="image/authentic.png" alt="">
+            </div>
+            <label>Only Authentic Supplements</lable>
+              <p>
+                The ingredients to make
+                the supplements are obtained from the most
+                reliable & tested sources from across the globe</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <div class="icon">
+              <img src="image/box.png" alt="">
+            </div>
+            <label>8k Boxes Bought Till Now</lable>
+              <p>
+                  We’ve built a strong
+                   fitness community of trust which
+                    strives on goals that define "Ziddi"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <button class="learnmore" onclick="window.location.href = 'info.html';">Learn more</button>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-7">
+          <article>
+            <p>Are you training hard in the gym to achieve
+              those body goals that you have been dreaming for long? Well,
+               you need the right nutrition. When your body has the fuel
+                that it requires then only it will be able to develop
+                from the inside out to give you the desired and long-lasting
+                results. Be it muscle building, development or better
+                performance, one of the best ways of getting more from
+                 your every session of training is to opt for the best
+                  online supplement brand to get the quality gym supplements
+                   or bodybuilding supplements.
+              </p>
+          </article>
+        </div>
+        <div class="col-5">
+          <img src="image/article.png" alt="">
+        </div>
+      </div>
+
+      <footer>
+        <div class="row-foot">
+            <div class="col-3">
+
+              <h1>EXPLORE</h1>
+              <ul class="footer">
+                <li><a href="info.html">About</a></li>
+                <li><a href="info.html">Blogs</a></li>
+                <li><a href="info.html">T&C</a></li>
+              </ul>
+
+            </div>
+            <div class="col-3">
+
+              <h1>PRODUCTS</h1>
+              <ul class="footer">
+                <li><a href="info.html">W-Protein</a></li>
+                <li><a href="info.html">BCAA Pro</a></li>
+                <li><a href="info.html">Gainer</a></li>
+              </ul>
+
+
+            </div>
+            <div class="col-3">
+
+              <h1>CATEGORIES</h1>
+              <ul class="footer">
+                <li><a href="info.html">Proteins</a></li>
+                <li><a href="info.html">BCAA</a></li>
+                <li><a href="info.html">Gainers</a></li>
+              </ul>
+
+            </div>
+            <div class="col-3">
+
+              <h1>SUPPORT</h1>
+              <ul class="footer">
+                <li><a href="info.html">QA</a></li>
+                <li><a href="info.html">Help</a></li>
+                <li><a href="info.html">Contact</a></li>
+              </ul>
+
+          </div>
+        </div>
+
+      </footer>
+
+
+
+    <script>
+
+      function dropdownmenu(){
+        var x=document.getElementById("dropdown");
+        if(x.className==="navbar"){
+          x.className+=" responsive";
+        }
+        else{
+          x.className="navbar";
+        }
+
+      }
+    </script>
+
+  </body>
+</html>
